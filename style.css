@@ -1,0 +1,93 @@
+/* #region: Overrides */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* #endregion */
+
+/* #region: Body Styling */
+
+body {
+    background-color: #efeee7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+/* #endregion */
+
+/* #region: Header Styling */
+
+header {
+    background-color: #333;
+    top: 0;
+}
+
+h1 {
+    color: #eee;
+    font-size: 28px;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    display: inline;
+}
+
+/* #endregion */
+
+/* #region: Positioning */
+
+#main-bio, #contact-info, #bio-image {
+    float: left;
+}
+
+/* #endregion */
+
+/* #region: Sizing */
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#bio-image {
+    width: 200px;
+    margin: 0px 50px 25px 0px;
+}
+
+#main-bio {
+    width: 70%;
+}
+
+#contact-info {
+    width: 30%;
+}
+
+.bio-text {
+    padding: 0px 70px;
+    position: relative;
+}
+
+/* #endregion */
+
+/* #region: Link Styling */
+
+a {
+    color: #d21034;
+}
+
+/* #endregion */
+
+/* #region: List styling */
+
+ul {
+    list-style: none;
+}
+
+/* #endregion */
